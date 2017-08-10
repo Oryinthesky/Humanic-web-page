@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/*Activar
+grad1 {
+ height: 5000px;
+    background: #62a09b; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fffff0, #004953); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fffff0, #004953); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fffff0, #004953); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fffff0, #004953); /* Standard syntax (must be last) */
+}
+
+header a {		
+	font-family: 'Oswald', sans-serif; 
+	font-size: 22px;
+	text-align: center;
+	list-style-type: none;
+	text-decoration: none;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+h1{
+	text-align: center; 
+	color: #004953;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+span {
+	padding-left: 10px;
+	border-bottom-color: #000000;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+	background-color: #004953;
+	overflow-x: hidden;
+    transition: 0.5s;
+    max-width: 15%;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.overlay-content a {
+    padding: 8%;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay-content a:hover, .overlay-content a:focus {
+    color: #f1f1f1;
+    font-size: 20px;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 50px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+p { 
+	padding-left: 20% ;
+	padding-right: 20% ;
+
+}
+
+
+
+
+
