@@ -10,36 +10,31 @@ grad1 {
     background: linear-gradient(#fffff0, #004953); /* Standard syntax (must be last) */
 }
 
-header a {		
-	font-family: 'Oswald', sans-serif; 
-	font-size: 22px;
-	text-align: center;
-	list-style-type: none;
-	text-decoration: none;
-	text-shadow: 4px 4px 4px #aaa;
+
+header {
+    font-family: 'Oswald', sans-serif; 
+    font-size: 50px;
+    
 }
 
-h1{
-	text-align: center; 
-	color: #004953;
+a { 
 
-}
+    text-align: center;
+    color: #004953;
+    text-decoration: none;
+    
+}  
 
 body {
     margin: 0;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-span {
-	padding-left: 10px;
-	border-bottom-color: #000000;
-}
-
 .overlay {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     top: 0;
     left: 0;
 	background-color: #004953;
@@ -49,27 +44,28 @@ span {
 }
 
 .overlay a {
-    padding: 8%;
+    padding: 10%;
     text-decoration: none;
-    font-size: 60px;
-    color: #818181;
-    display: block;
+    font-size: 26px;
+    color: #fffff0;
+    display: inline-block;
 }
 
 .overlay-content {
-    position: relative;
-    top: 25%;
+    position: initial;
+    top: 5%;
     width: 100%;
     text-align: center;
     margin-top: 30%;
 }
 
 .overlay-content a {
-    padding: 8%;
+    padding: 4%;
     text-decoration: none;
     font-size: 15px;
-    color: #818181;
+    color: #fffff0;
     display: block;
+    margin-top: 8%;
 }
 
 .overlay-content a:hover, .overlay-content a:focus {
@@ -78,18 +74,21 @@ span {
 }
 
 @media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
+  .overlay a {font-size: 8%}
+  .overlay-content a  {font-size: 18px;
     top: 15px;
     right: 35px;
+  }
+  .overlay {
+    max-width: 30%;
   }
 }
 
 
-p { 
+p,h1 { 
 	padding-left: 20% ;
 	padding-right: 20% ;
+
 
 }
 
